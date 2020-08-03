@@ -8,6 +8,6 @@ var server = http.createServer(function(request,response){
     response.end('<br/><strong>FW web server</strong>');
 
 });
-server.listen(8080, function(){ 
+server.listen(80, function(){ 
     console.log('Server is running...');
 });
